@@ -1,0 +1,144 @@
+
+/* Main Styles */
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+#logo
+{
+    display: block;
+    margin: auto;
+    padding: 50px;
+    width: 20%;
+}
+
+header
+{
+    background: url(../img/bg.jpg);
+    background-size: cover;
+}
+
+.topNav
+{
+    padding: 10px;
+    overflow: hidden;
+    background: #000000;
+    letter-spacing: 2px;
+}
+
+ul li
+{
+    display: inline;
+    list-style: none;
+    font-family: 'Noto Serif SC', serif;
+}
+
+ul
+{
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    padding: 12px;
+    color: #ffffff;
+}
+
+iframe
+{
+    padding: 160px;
+    display: block;
+    margin: auto;
+}
+
+.merch
+{
+    padding: 40px;
+    text-align: center;
+    font-family: 'Noto Serif SC', serif;
+}
+
+#merch
+{
+    color: rgb(13, 21, 53);
+}
+
+.merchItems
+{
+    width: 20%;
+}
+
+.main-section
+{
+    background: url(../img/bgPattern.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h3
+{
+    color: #000000;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+h4
+{
+    color: #ffffff;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 25px;
+}
+
+.blogSection
+{
+    float: left;
+    padding:50px;
+    padding-left: 350px;
+    width: 800px;
+    height: 480px;
+    background-color: #ffffff;
+}
+
+.sidebar
+{
+    float: right;
+    padding: 40px;
+    width: 620px;
+    height: 599px;
+    background: #000000
+}
+
+.sidebar p
+{
+    color: #ffffff;
+}
+
+.blogStyles
+{
+    height: 500px;
+}
+
+.blogImage
+{
+    float: left;
+    padding: 5px 10px;
+}
+
+p
+{
+    padding: 10px;
+}
+
+/* Media Queries */
